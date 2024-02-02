@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+ /* conversao:  1rem = 16px*/
+
+:root{
+    --texto-principal: #ffffff;
+    --texto-secundario: #c0c0c0;
+    --cor-botao: #167BF7;
+    --cor-fundo: #00030C;
+    --fonte-principal: 'Inter', sans-serif;
+    --botao-azul-efeito: #98a144;
+
+    
+}
+body{
+    background-color: var(--cor-fundo);
+    color: VAR(--texto-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+.principal{
+    background-image: url("image/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* alinha a section na pagina */
+    align-items: center; 
+    /* alinha todos os elementos */
+    text-align: center;
+}
+.container {
+    height:  80vh;
+    display: grid;
+    /* separar por colunas */
+    grid-template-columns: 50% 50%;
+}
+.container__destaque{
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+.container__imagem{
+    /*A ordem da margem é igual um relógio: top, right, bottom, left, */
+    margin: 1em 0 3em 0;
+}
+.container__botao{
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    padding: 1rem;
+    color: var(--texto-principal);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+/* essa classe fica dentro do container botao
+    criamos para pegar as mesma configurações, mas com alguns detalhe diverentes
+ */
+.botao2{
+    background-color: transparent;
+    border: 2px solid var(--texto-principal);
+}
+.container__aviso{
+    font-size: 0.75rem;
+    color: var(--texto-secundario);
+    text-align: center;
+}
+.container__caixa{
+    margin: 0 3em;
+}
+.segundo{
+    align-items: center;
+    margin: 0 10em;
+}
+.segundo__imagem{
+    width: 80%;
+
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 0.1em;
+}
+.descricao__texto{
+    color: var(--texto-secundario);
+}
+
+.segundo__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao{
+    padding: 1em;
+}
+
+/* alinha todos os elementos dentro do container */
+.dispositivos{
+    text-align: center;
+    color: var(--texto-principal);
+    /* height: 80vh; */
+}
+
+.dispositivos__titulo{
+    font-size: 48px;
+}
+
+/* faz a lista ficar em linha, um do lado do outro */
+.dispositivos__lista{
+    /* faz a lista ficar em linha e centraliza, um do lado do outro */
+    display: flex;
+    justify-content: center;
+    /* retirar os bullets da lista */
+    list-style-type: none;
+    margin: 2em 0 4em 0;
+}
+
+.lista__item{
+    font-size: 32px;
+}
+
+.rodape{
+    text-decoration: none;
+    color: var(--texto-secundario); 
+    text-align: center;
+    margin: 1em 0;
+}
+.rodape__imagem{
+    margin: 3em 0 2em 0;
+}
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 2em 2em;
+    gap: 1em;
+}
+.rodape__links{
+    text-decoration: none;
+    color: var(--texto-principal);
+}
+
+/* dentro do roda_lista no elemento 'a'(ancora) mudar de cor qdo o mouse passar em cima */
+.rodape__lista a:hover{
+    color: blue;
+}
+
+.rodape__lista a:active{
+    color: pink;
+}
+.rodape__texto{
+    padding-bottom: 1em;
+    font-size: 14px;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-fundo);
+
+}

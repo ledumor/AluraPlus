@@ -1,0 +1,75 @@
+.example {
+    color: #FFF;
+            /* espaço fora do elemento */
+            margin-bottom: 10px;
+            /* espaço dentro do elemento */
+            padding: 1%;
+}
+    .example-item {
+        width: 50%;
+        height: 125px;
+
+    }
+    .example-item_first {
+        background-color: #FAA116;
+    }
+    .example-item_second {
+        background-color: #57C7C3;
+    }
+    .example-item_third {
+        background-color: #3B97D3;
+    }
+    /* display inline */
+
+    .example2 {
+        color: #FFF;
+                    /* espaço fora do elemento */
+                    margin-bottom: 10px;
+                    /* espaço dentro do elemento */
+                    padding: 1%;
+    }
+        .example2-item {
+            width: 50%;
+            height: 125px;
+            display: inline; /* Adicionamos apenas essa linha */
+                    /* espaço fora do elemento */
+        margin-bottom: 10px;
+        /* espaço dentro do elemento */
+        padding: 10px;
+        }
+        .example2-item_first {
+            background-color: #FAA116;
+        }
+        .example2-item_second {
+            background-color: #57C7C3;
+        }
+        .example2-item_third {
+            background-color: #3B97D3;
+        }
+
+        .example3 {
+            color: #FFF;
+                        /* espaço fora do elemento */
+                        text-align: justify;
+                        
+        }
+            .example3-item {
+                width: 50%;
+                height: 125px;
+                display: inline-block; /* Adicionamos apenas essa linha */
+                        /* espaço fora do elemento */
+
+            }
+            .example3-item_first {
+                background-color: #a16a11;
+            }
+            .example3-item_second {
+                background-color: #3b8582;
+            }
+            .example3-item_third {
+                background-color: #255a7e;
+            }
+            p{
+                text-align: justify;
+
+            }
