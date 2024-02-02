@@ -12,9 +12,7 @@
     --cor-botao: #167BF7;
     --cor-fundo: #00030C;
     --fonte-principal: 'Inter', sans-serif;
-    --botao-azul-efeito: #98a144;
-
-    
+    --botao-azul-efeito: #772ea2;    
 }
 body{
     background-color: var(--cor-fundo);
